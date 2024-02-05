@@ -23,8 +23,8 @@ export class SearchService {
         },
         "action": "search",
         "version": "1.1.0",
-        "bap_id": "ps-bap-network.becknprotocol.io",
-        "bap_uri": "https://ps-bap-network.becknprotocol.io",
+        "bap_id": "kuza-agrinet-bap.com",
+        "bap_uri": "https://bap-network.kuza.one",
         "transaction_id": "beb65a81-6967-4c12-baa4-f1c03896a2b9",
         "message_id": "619aad85-472a-4814-a7b7-3863064aa84d",
         "timestamp": "2024-02-02T18:02:93+05:30"
@@ -43,7 +43,7 @@ export class SearchService {
     let config = {
       method: 'post',
       maxBodyLength: Infinity,
-      url: 'https://ps-bap-client.becknprotocol.io/search',
+      url: 'http://bap-client.kuza.one/search/',
       headers: { 
         'Content-Type': 'application/json'
       },
